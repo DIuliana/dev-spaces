@@ -14,7 +14,7 @@ const Header = (props) => (
         <div className="col userMenu">
         {props.userName != null &&
             <span className="userSignOut">
-                <Link href="/devsignin"><span tabIndex="0">Ciao {props.userName} | Sign out</span></Link>
+                <Link href="/devsignin"><span tabIndex="0">Ciao Bella {props.userName} | Sign out</span></Link>
             </span>
         }
         </div>
